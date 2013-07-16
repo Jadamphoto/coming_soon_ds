@@ -1,0 +1,202 @@
+/* Reset */
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}fieldset,img{border:0;}address,caption,dfn,th,var{font-style:normal;font-weight:normal;}li{list-style:none;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+
+body{
+margin:0;
+padding:0;
+background: #fff url(../images/bg.gif) top center repeat-x;
+font-family: Helvetica Neue, Helvetica, Arial;
+color: #ff0000;
+}
+
+#wrapper{
+margin: 0 auto;
+width: 940px;
+}
+
+.main_content, .uppersection{
+width: 940px;
+float: left;
+}
+
+.logo{
+margin: 0 auto 60px auto;
+width: 160px;
+text-align: center;
+}
+
+.logo h1{
+width: 95px;
+height: 70px;
+margin: 44px auto 5px auto;
+border-radius: 50%;
+background: #fff;
+color: #68b2b1;
+text-align: center;
+padding-top: 25px;
+font-size: 49px;
+}
+
+.logo span{
+font-size: 22px;
+text-align: center;
+margin: 0 auto;
+}
+
+h2{
+font-weight: normal;
+text-align: center;
+display: block;
+font-size: 30px;
+}
+
+h2 strong{
+text-transform: uppercase;
+font-size: 64px;
+}
+
+
+h2 span{
+font-style: italic;
+font-size: 30px;
+}
+
+p{
+font-size: 19px;
+text-align: center;
+padding: 20px 140px 0;
+line-height: 26px;
+font-weight: 300;
+}
+
+ul.social{
+margin-top: 90px;
+float: left;
+padding-left: 120px;
+}
+
+ul.social li{
+float: left;
+margin-right: 40px;
+font-size: 11px;
+font-weight: bold;
+text-transform: uppercase;
+}
+
+ul.social li a{
+color: #333;
+text-decoration: none;
+padding-right: 30px;
+padding-bottom: 9px;
+padding-top: 4px;
+}
+
+ul.social li a:hover{
+text-decoration: underline;
+padding-top: 3px;
+}
+
+ul.social li a.fb{
+background: url(../images/social.png) right -30px no-repeat;
+}
+
+ul.social li a.tw{
+background: url(../images/social.png) right -90px no-repeat;
+}
+
+ul.social li a.tumblr{
+background: url(../images/social.png) right -150px no-repeat;
+}
+
+ul.social li a.insta{
+background: url(../images/social.png) right -60px no-repeat;
+}
+
+ul.social li a.4sqr{
+background: url(../images/social.png) right -90px no-repeat;
+}
+
+ul.social li a.flickr{
+background: url(../images/social.png) right -120px no-repeat;
+}
+
+/** Mail Chimp **/
+
+/**
+
+#optin { margin: 0 auto 2em; overflow: hidden; text-align: center; width: 35em; padding-top: 5em; padding-left: 25em;} 
+	
+
+#mailwrap{
+margin: 0 auto;
+width: 940px;
+}
+
+**/
+#signup {
+	padding-top: 20em;
+}
+
+#mailcopy {
+	text-align: center; 
+	width: 40em;
+	margin: auto;
+	border: solid;
+	padding: 0 !important;
+}
+
+#optin {
+	overflow: hidden; 
+	text-align: center; 
+	width: 40em;
+	margin: 0 auto;
+	border: solid;
+
+}
+
+	#optin input {
+		background: #fff url(images/input.png) repeat-x bottom;
+		border: 1px solid #ccc;
+		float: left;
+		font-size: 14px;
+		margin: 0 10px 10px 0;
+		padding: 8px 10px;
+		width: 200px;
+		border-radius: 3px;
+		-moz-border-radius: 3px;
+		-webkit-border-radius: 3px;
+		box-shadow: 0 2px 2px #ddd;
+		-moz-box-shadow: 0 2px 2px #ddd;
+		-webkit-box-shadow: 0 2px 2px #ddd
+	}
+
+		#optin input.name { 
+			background: #fff 
+			url(images/name.png) no-repeat 10px center; 
+			padding-left: 35px 
+		}
+
+		#optin input.email { 
+			background: #fff 
+			url(images/email.png) no-repeat 10px center; 
+			padding-left: 35px 
+		}
+
+		#optin input[type="submit"] {
+			background: #217b30 url(images/green.png) repeat-x top;	
+			border: 1px 
+			solid #137725;
+			color: #fff;
+			cursor: pointer;
+			float: left;
+			font-size: 14px;
+			font-weight: bold;
+			padding: 7px 6px;
+			text-shadow: -1px -1px #1c5d28;
+			width: auto
+		}
+		
+		#optin input[type="submit"]:hover { 
+			color: #c6ffd1;
+		}
